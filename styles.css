@@ -1,0 +1,50 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    border: 2px solid black;
+}
+
+.container{
+    display: none;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+.button {
+    padding: 20px 30px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.up, .down, .left, .right {
+    background-color: rgba(0, 0, 0, 0.364);
+    color: white;
+}
+
+
+.up,.down{
+    padding-left: ;
+}
+
+@media (max-width: 500px){
+    body{
+        flex-direction: column;
+    }
+    .container{
+        display: grid;
+        place-items: center;
+        background-color: rgba(0, 0, 0, 0.115);
+        box-shadow: 0 2px 10px 0 black;
+    }
+}
